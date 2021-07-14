@@ -6,6 +6,7 @@ public class Team {
     private List<Player> allPlayers;
     private Random random = new Random();
     private List<Player> outputFormation = new ArrayList<Player>();
+
     public Team(List<Player> allPlayers) {
         this.allPlayers = allPlayers;
     }
@@ -26,7 +27,7 @@ public class Team {
         while (DFcount < DFs) {
             int randomNumber = random.nextInt(22);
             if ((allPlayers.get(randomNumber).position.equals(Position.DF))
-            && !outputFormation.contains(allPlayers.get(randomNumber))) {
+                    && !outputFormation.contains(allPlayers.get(randomNumber))) {
                 outputFormation.add(allPlayers.get(randomNumber));
                 DFcount++;
             }
@@ -35,7 +36,7 @@ public class Team {
         while (MFcount < MFs) {
             int randomNumber = random.nextInt(22);
             if ((allPlayers.get(randomNumber).position.equals(Position.MF))
-            && !outputFormation.contains(allPlayers.get(randomNumber))){
+                    && !outputFormation.contains(allPlayers.get(randomNumber))) {
                 outputFormation.add(allPlayers.get(randomNumber));
                 MFcount++;
             }
@@ -44,7 +45,7 @@ public class Team {
         while (FWcount < FWs) {
             int randomNumber = random.nextInt(22);
             if ((allPlayers.get(randomNumber).position.equals(Position.FW))
-            && !outputFormation.contains(allPlayers.get(randomNumber))) {
+                    && !outputFormation.contains(allPlayers.get(randomNumber))) {
                 outputFormation.add(allPlayers.get(randomNumber));
                 FWcount++;
             }
