@@ -1,0 +1,163 @@
+  
+[
+    {
+      "id": "01",
+      "name": "Oil - Canola",
+      "shortPrice": 105,
+      "productType": "MAKEUP",
+      "quantity": 100,
+      "soldQuantity": 26
+    },
+    {
+      "id": "02",
+      "name": "Butter - Salted",
+      "shortPrice": 244,
+      "productType": "MAKEUP",
+      "quantity": 61,
+      "soldQuantity": 47
+    },
+    {
+      "id": "03",
+      "name": "Wine - Magnotta, Merlot Sr Vqa",
+      "shortPrice": 226,
+      "productType": "MAKEUP",
+      "quantity": 81,
+      "soldQuantity": 8
+    },
+    {
+      "id": "04",
+      "name": "Shichimi Togarashi Peppeers",
+      "shortPrice": 108,
+      "productType": "MAKEUP",
+      "quantity": 98,
+      "soldQuantity": 13
+    },
+    {
+      "id": "05",
+      "name": "Graham Cracker Mix",
+      "shortPrice": 48,
+      "productType": "FOOD",
+      "quantity": 66,
+      "soldQuantity": 17
+    },
+    {
+      "id": "06",
+      "name": "Wine - Cave Springs Dry Riesling",
+      "shortPrice": 32,
+      "productType": "HOUSEWARE",
+      "quantity": 54,
+      "soldQuantity": 36
+    },
+    {
+      "id": "07",
+      "name": "Crush - Cream Soda",
+      "shortPrice": 208,
+      "productType": "HOUSEWARE",
+      "quantity": 93,
+      "soldQuantity": 33
+    },
+    {
+      "id": "08",
+      "name": "Asparagus - White, Canned",
+      "shortPrice": 277,
+      "productType": "FOOD",
+      "quantity": 99,
+      "soldQuantity": 1
+    },
+    {
+      "id": "09",
+      "name": "Bread - Granary Small Pull",
+      "shortPrice": 63,
+      "productType": "HOUSEWARE",
+      "quantity": 51,
+      "soldQuantity": 23
+    },
+    {
+      "id": "10",
+      "name": "Oil - Safflower",
+      "shortPrice": 128,
+      "productType": "MAKEUP",
+      "quantity": 68,
+      "soldQuantity": 34
+    },
+    {
+      "id": "11",
+      "name": "Vinegar - White",
+      "shortPrice": 264,
+      "productType": "FOOD",
+      "quantity": 63,
+      "soldQuantity": 12
+    },
+    {
+      "id": "12",
+      "name": "Arrowroot",
+      "shortPrice": 291,
+      "productType": "FOOD",
+      "quantity": 51,
+      "soldQuantity": 18
+    },
+    {
+      "id": "13",
+      "name": "Silicone Paper 16.5x24",
+      "shortPrice": 297,
+      "productType": "HOUSEWARE",
+      "quantity": 68,
+      "soldQuantity": 15
+    },
+    {
+      "id": "14",
+      "name": "Yeast - Fresh, Fleischman",
+      "shortPrice": 107,
+      "productType": "HOUSEWARE",
+      "quantity": 52,
+      "soldQuantity": 10
+    },
+    {
+      "id": "15",
+      "name": "Calaloo",
+      "shortPrice": 133,
+      "productType": "FOOD",
+      "quantity": 69,
+      "soldQuantity": 3
+    },
+    {
+      "id": "16",
+      "name": "Bread - Frozen Basket Variety",
+      "shortPrice": 54,
+      "productType": "MAKEUP",
+      "quantity": 74,
+      "soldQuantity": 48
+    },
+    {
+      "id": "17",
+      "name": "Mushroom - Shitake, Dry",
+      "shortPrice": 205,
+      "productType": "CLOTHES",
+      "quantity": 88,
+      "soldQuantity": 43
+    },
+    {
+      "id": "18",
+      "name": "Anchovy In Oil",
+      "shortPrice": 242,
+      "productType": "MAKEUP",
+      "quantity": 92,
+      "soldQuantity": 46
+    },
+    {
+      "id": "19",
+      "name": "Tomatoes - Vine Ripe, Yellow",
+      "shortPrice": 240,
+      "productType": "HOUSEWARE",
+      "quantity": 91,
+      "soldQuantity": 38
+    },
+    {
+      "id": "20",
+      "name": "Trueblue - Blueberry 12x473ml",
+      "shortPrice": 201,
+      "productType": "MAKEUP",
+      "quantity": 72,
+      "soldQuantity": 45
+    }
+  ]
