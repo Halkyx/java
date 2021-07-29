@@ -7,6 +7,7 @@ public class App {
 
         Scanner sc = new Scanner(System.in);
         int choose = sc.nextInt();
+       
         switch (choose) {
             case 0:
                 System.exit(0);

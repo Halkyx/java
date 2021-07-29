@@ -10,7 +10,6 @@ public class Product {
     private long price;
     private int soldQuantity;
 
-
     public Product() {
     }
 
@@ -70,7 +69,6 @@ public class Product {
         this.soldQuantity = soldQuantity;
     }
 
-
     public static String formatMoney(long money) {
         DecimalFormat formatter = new DecimalFormat("###,###,##0");
         return formatter.format(money);
@@ -117,9 +115,10 @@ public class Product {
     @Override
     public String toString() {
         if (this.shortPrice != 0) {
-            this.price = this.shortPrice * 1000;}
-        return "Product [Id=" + id + ", name=" + name + ", productType=" + productType.getType()
-                + ", price=" + formatMoney(price) + ", quantity=" + quantity + ", soldQuantity=" + soldQuantity + "]";
+            this.price = this.shortPrice * 1000;
+        }
+        return "Product [Id=" + id + ", name=" + name + ", productType=" + productType.getType() + ", price="
+                + formatMoney(price) + ", quantity=" + quantity + ", soldQuantity=" + soldQuantity + "]";
     }
 
 }

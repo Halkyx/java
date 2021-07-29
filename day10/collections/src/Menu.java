@@ -114,6 +114,7 @@ public class Menu {
                     count++;
                 }
             }
+            
             System.out.println("So san pham thuoc loai " + eNum.getType() + " la: " + count);
         }
     }
