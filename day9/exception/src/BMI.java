@@ -19,7 +19,6 @@ public class BMI {
                 System.out.println("Con so nhap vao phai lon hon 0. Vui long nhap lai");
             }
         }
-        scanner.close();
         return returnValue;
     }
 
@@ -42,7 +41,6 @@ public class BMI {
             }
 
         }
-        scanner.close();
         return returnValue;
     }
 

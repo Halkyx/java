@@ -15,7 +15,6 @@ public class Rectangle {
         int width = 0;
         System.out.print("Nhap do dai chieu ngang cua hinh chu nhat:\t");
         width = Integer.valueOf(scanner.nextLine());
-        scanner.close();
         if (width < 0)
             throw new ArithmeticException();
         return width;
@@ -26,7 +25,6 @@ public class Rectangle {
         int height = 0;
         System.out.print("Nhap do dai chieu doc cua hinh chu nhat:\t");
         height = Integer.valueOf(scanner.nextLine());
-        scanner.close();
         if (height < 0)
             throw new ArithmeticException();
         return height;
