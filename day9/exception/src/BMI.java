@@ -46,7 +46,7 @@ public class BMI {
 
     public float BMIcalculate(float height, float weight) {
         float bmi = (float) (weight / (Math.pow(height, 2)));
-        System.out.printf("Chi so BMI cua ban la : %.2f\n", bmi);
+        System.out.printf("Chi so BMI cua ban la: %.2f\n", bmi);
         return bmi;
     }
 

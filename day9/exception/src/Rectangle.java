@@ -45,9 +45,9 @@ public class Rectangle {
                 height = this.getHeight();
                 formatHeight = true;
             } catch (ArithmeticException ex1) {
-                System.out.println("So nhap vao phai lon hon 0. Vui long nhap lai");
+                System.out.println("So nhap vao phai lon hon 0. Vui long nhap lai:");
             } catch (NumberFormatException ex2) {
-                System.out.println("Du lieu nhap vao khong hop le. Vui long nhap lai");
+                System.out.println("Du lieu nhap vao khong hop le. Vui long nhap lai:");
             }
         }
         this.drawRectangle(width, height);
